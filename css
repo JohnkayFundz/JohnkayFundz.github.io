@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#111;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:#1a1a1a;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    color:#aaa;
+}
+
+section{
+    max-width:900px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.skills ul{
+    list-style:none;
+}
+
+.skills li{
+    background:#222;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1a1a1a;
+}
